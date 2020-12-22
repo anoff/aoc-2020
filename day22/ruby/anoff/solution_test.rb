@@ -17,4 +17,14 @@ class TestSolution < Test::Unit::TestCase
     d1, d2 = readInput("./input_test.txt")
     assert_equal 306, part1(d1, d2)
   end
+
+  def test_game_recursive
+    d1, d2 = readInput("./input_test.txt")
+    assert_equal "winner=2", game_recursive(d1, d2)[0]
+  end
+
+  def test_part2
+    d1, d2 = readInput("./input_test.txt")
+    assert_equal 291, part2(d1, d2)
+  end
 end

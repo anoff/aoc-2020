@@ -9,6 +9,9 @@ Build a few tests, a little loop, debugged for a few minutes to learn how Ruby d
 
 == Part 2
 
+Thought longer than I had to before I started implementing this.
+Only had some point I went wrong and that was how I interpreted the "infinite loop stop" scenario - I thought if ANY players deck repeats it stops but they need to be in exactly the same configuration.
+Code does not terminate anymore :(
 
 == Solution
 
