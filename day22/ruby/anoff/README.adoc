@@ -1,0 +1,25 @@
+Puzzle: https://adventofcode.com/2020/day/22[Crab Combat]
+
+== Part 1
+
+> Ja mei, is' denn scho Weihnachten?
+
+Such an easy task.. afraid of what's going to happen in part2.
+Build a few tests, a little loop, debugged for a few minutes to learn how Ruby deals with `each_with_index` scenarios in a reduce situation.
+
+== Part 2
+
+
+== Solution
+
+[source, ruby]
+....
+include::solution.rb[]
+....
+
+=== Test cases
+
+[source, ruby]
+....
+include::solution_test.rb[]
+....
