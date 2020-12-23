@@ -1,0 +1,29 @@
+Puzzle: https://adventofcode.com/2020/day/23[Crab Cups]
+
+== Part 1
+
+Decided to learn Rubys array shift operators.
+Quite straight forward, no major problems.
+
+TIL: Rotate an array using `arr.push(arr.shift)`
+
+== Part 2
+
+== Solution
+
+[source, ruby]
+....
+include::allergenmap.rb[]
+....
+
+[source, ruby]
+....
+include::solution.rb[]
+....
+
+=== Test cases
+
+[source, ruby]
+....
+include::solution_test.rb[]
+....
