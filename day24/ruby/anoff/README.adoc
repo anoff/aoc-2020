@@ -1,0 +1,38 @@
+Puzzle: https://adventofcode.com/2020/day/24[Lobby Layout]
+
+== Part 1
+
+Figuring out how to deal with hexagons was annoying.
+Was not paying enough attention at first to understand that (un)even rows behave different.
+After a good night's sleep this made sense and finally got it working.
+
+Implemented the hexagon _movement_ logic in a `Tile` class.
+
+* create reference tile
+* initialize empty array of visited tiles
+* for each instruction walk to target tile
+* if it does not exist in visited tile array, create a new tile
+* flip the tile
+* after all lines are parsed, count the tiles in the array that are black
+
+[source, ruby]
+....
+include::tile.rb[]
+....
+
+== Part 2
+
+
+== Solution
+
+[source, ruby]
+....
+include::solution.rb[]
+....
+
+=== Test cases
+
+[source, ruby]
+....
+include::solution_test.rb[]
+....
